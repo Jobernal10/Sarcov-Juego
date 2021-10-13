@@ -44,6 +44,7 @@ public class Movimiento : MonoBehaviour
         }
     }
 
+    //mecanicas de salto y movimiento 
     private void Jump(){
         Rigidbody2D.AddForce(Vector2.up * JumpForce);
     }
@@ -53,6 +54,7 @@ public class Movimiento : MonoBehaviour
 
     }
 
+    //daño resivido enemigos
     public void Hit(Collider2D other)
     {
         Health -= 1;

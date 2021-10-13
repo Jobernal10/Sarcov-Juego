@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 292012062866069162}
   - component: {fileID: 292012062866069166}
   - component: {fileID: 5025253948187841931}
+  - component: {fileID: 8127042445114879622}
   m_Layer: 0
   m_Name: toxico_0
   m_TagString: Untagged
@@ -151,3 +152,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3005953, y: 2.0832288}
   m_EdgeRadius: 0
+--- !u!114 &8127042445114879622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292012062866069163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaebd2ada06756a4da4a2c8d4d4fe032, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rutina: 0
+  cronometro: 0
+  ani: {fileID: 292012062866069166}
+  direccion: 0
+  speed_walk: 0
