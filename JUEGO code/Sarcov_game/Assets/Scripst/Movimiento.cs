@@ -64,4 +64,20 @@ public class Movimiento : MonoBehaviour
         } 
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Plataforma_mov")
+        {
+            transform.parent = collision.transform;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Plataforma_mov")
+        {
+            transform.parent = null;
+        }
+    }
+
 }
