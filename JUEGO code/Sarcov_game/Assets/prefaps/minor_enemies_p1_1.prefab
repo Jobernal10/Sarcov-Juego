@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1996372772793336582}
   - component: {fileID: 1996372772793336581}
   - component: {fileID: 1996372772793336583}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: minor_enemies_p1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

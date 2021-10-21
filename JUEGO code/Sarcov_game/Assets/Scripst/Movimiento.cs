@@ -12,12 +12,13 @@ public class Movimiento : MonoBehaviour
     private float Horizontal;
     private Animator Animator;
     private bool Grounded = false;
-    private int Health = 5;
+    public int Health;
+    public int initial_healt;
     
     void Start()
     {
-         Rigidbody2D = GetComponent<Rigidbody2D>(); 
-       Animator = GetComponent<Animator>();
+        Rigidbody2D = GetComponent<Rigidbody2D>(); 
+        Animator = GetComponent<Animator>();
     }
 
     
@@ -55,12 +56,13 @@ public class Movimiento : MonoBehaviour
     }
 
     //daño resivido enemigos
-    public void Hit(Collider2D other)
+    public void Hit(Collider2D other,int daño)
     {
-        Health -= 1;
-        if (Health == 0){
+        Health -= daño;
+       // Debug.Log("recibio " + daño + " de daño");
+        if (Health <= 0){
            other.transform.position = spawnPoint.position;
-           Health = 5;
+           Health = initial_healt;
         } 
     }
 

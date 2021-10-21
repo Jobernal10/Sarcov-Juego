@@ -7,6 +7,7 @@ public class Enemigo_volador : MonoBehaviour
    
     public float visionRadius;
     public float speed;
+    public int daño;
 
     GameObject player;
 
@@ -39,7 +40,7 @@ public class Enemigo_volador : MonoBehaviour
         Movimiento lily = other.GetComponent<Movimiento>();
         if (lily != null)
         {
-            lily.Hit(other);
+            lily.Hit(other,daño);
             
         }
     }

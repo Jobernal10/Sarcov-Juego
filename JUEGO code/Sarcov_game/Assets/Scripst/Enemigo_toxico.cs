@@ -15,6 +15,11 @@ public class Enemigo_toxico : MonoBehaviour
     public float rango_vision;
     public float rango_ataque;
 
+    public int Health;
+    private float lastshoot;
+    public GameObject Proyectil;
+    private float px;
+
     void Start()
     {
         ani = GetComponent<Animator>();
@@ -82,24 +87,51 @@ public class Enemigo_toxico : MonoBehaviour
            {
                if (!atacando)
                {
-                   if (transform.position.x < target.transform.position.x)
+                   if (transform.position.x < target.transform.position.x )
                    {
                         transform.rotation = Quaternion.Euler(0,0,0);
+                        px = 0.2783f;
+                        ani.SetBool("Walk", false);
                    }
                    else
                    {
-                        transform.rotation = Quaternion.Euler(0,180,0);
+                       transform.rotation = Quaternion.Euler(0,180,0);
+                       px = -0.2783f;
+                        ani.SetBool("Walk", false);
                    }
-                   ani.SetBool("Walk", false);
-                   //atacando = true;
-                    Debug.Log("Atacando");
-               }
-               else
-               {
-                   Debug.Log("Atacando");
+                   if (target.transform.position.x > rango_ataque && Time.time > lastshoot + 3.0f)
+                   {
+                        ani.SetBool("Walk", false);
+                        //Debug.Log("Disparo");
+                        Shoot();
+                        lastshoot = Time.time;
+                   }
+                   
                }
            }
        }
+    }
+
+    private void Shoot()
+    {
+
+            Vector3 directionp = new Vector3(px, 0.0f, 0.0f);
+            GameObject bullet = Instantiate(Proyectil, transform.position + directionp * 0.1f, Quaternion.identity);
+            bullet.GetComponent<proyectil_flema>().SetDirection(directionp);
+    }
+
+    public void HitT(Collider2D other,int daño)
+    {
+        Health -= daño;
+        Debug.Log("Enemigo recibio " + daño + " de daño");
+        if (Health <= 0){
+           DestroyEnemy();
+        }
+    }
+
+    public void DestroyEnemy()
+    {
+        Destroy(gameObject);
     }
 
     private void OnDrawGizmos(){
