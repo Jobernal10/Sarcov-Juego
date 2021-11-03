@@ -59,8 +59,8 @@ public class Movimiento : MonoBehaviour
     public void Hit(Collider2D other,int daño)
     {
         Health -= daño;
-       // Debug.Log("recibio " + daño + " de daño");
-        if (Health <= 0){
+        if (Health <= 0)
+        {
            other.transform.position = spawnPoint.position;
            Health = initial_healt;
         } 

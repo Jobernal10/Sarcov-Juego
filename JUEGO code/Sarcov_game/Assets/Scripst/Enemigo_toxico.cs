@@ -20,8 +20,11 @@ public class Enemigo_toxico : MonoBehaviour
     public GameObject Proyectil;
     private float px;
 
+    //private UnityEngine.Object enemyRef;
+
     void Start()
     {
+        //enemyRef = Assets.Load("Enemy");
         ani = GetComponent<Animator>();
         target = GameObject.FindGameObjectWithTag("Player");
     }
@@ -142,6 +145,15 @@ public class Enemigo_toxico : MonoBehaviour
     
     void Update()
     {
+       // if (target == null)
+        //{
+         //   respwan();
+       // }
         Comportamientos();
     }
+    /*void respwan()
+    {
+        GameObject enemyclone = (GameObject)Instantiate(enemyRef);
+        enemyclone.transform.position = transform.position;
+    }*/
 }
