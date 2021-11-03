@@ -5,27 +5,27 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637697380324952441
-    m_Hash: 1197561154
+      ticks: 637715096919213141
+    m_Hash: 1407836200
   m_LockFileStatus:
     m_FilePath: E:/git/Sarcov-Juego/JUEGO code/Sarcov_game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637697382024601349
-    m_Hash: 3466310726
+      ticks: 637715098447661878
+    m_Hash: 1628627717
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.2d.animation@5.0.7
+    - packageId: com.unity.2d.animation@5.0.8
       testable: 0
       isDirectDependency: 1
-      version: 5.0.7
+      version: 5.0.8
       source: 1
-      resolvedPath: E:\git\Sarcov-Juego\JUEGO code\Sarcov_game\Library\PackageCache\com.unity.2d.animation@5.0.7
+      resolvedPath: E:\git\Sarcov-Juego\JUEGO code\Sarcov_game\Library\PackageCache\com.unity.2d.animation@5.0.8
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
       displayName: 2D Animation
@@ -98,6 +98,7 @@ m_PackageAssets:
         - 5.0.5
         - 5.0.6
         - 5.0.7
+        - 5.0.8
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.1
@@ -108,9 +109,8 @@ m_PackageAssets:
         - 7.0.0-pre.3
         - 7.0.0
         compatible:
-        - 5.0.6
-        - 5.0.7
-        verified: 5.0.7
+        - 5.0.8
+        verified: 5.0.8
       dependencies:
       - name: com.unity.2d.common
         version: 4.0.3
@@ -156,13 +156,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637637510960000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 6f9c488e4d487ead34ee4d516f0a2f4a911a8b25
+        revision: f2df77302616ee97ac0bda980859324394e44df3
         path: 
     - packageId: com.unity.2d.pixel-perfect@4.0.1
       testable: 0
@@ -239,12 +239,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/2d.git
         revision: 7d7470f4ca0ea8353d4c9640b3b6ae9d1ebd9c1d
         path: 
-    - packageId: com.unity.2d.psdimporter@4.1.0
+    - packageId: com.unity.2d.psdimporter@4.1.1
       testable: 0
       isDirectDependency: 1
-      version: 4.1.0
+      version: 4.1.1
       source: 1
-      resolvedPath: E:\git\Sarcov-Juego\JUEGO code\Sarcov_game\Library\PackageCache\com.unity.2d.psdimporter@4.1.0
+      resolvedPath: E:\git\Sarcov-Juego\JUEGO code\Sarcov_game\Library\PackageCache\com.unity.2d.psdimporter@4.1.1
       assetPath: Packages/com.unity.2d.psdimporter
       name: com.unity.2d.psdimporter
       displayName: 2D PSD Importer
@@ -293,6 +293,7 @@ m_PackageAssets:
         - 4.0.1
         - 4.0.2
         - 4.1.0
+        - 4.1.1
         - 5.0.0-pre.1
         - 5.0.0-pre.2
         - 5.0.1
@@ -303,13 +304,13 @@ m_PackageAssets:
         - 6.0.0-pre.4
         - 6.0.0
         compatible:
-        - 4.1.0
-        verified: 4.1.0
+        - 4.1.1
+        verified: 4.1.1
       dependencies:
       - name: com.unity.2d.common
         version: 4.0.3
       - name: com.unity.2d.animation
-        version: 5.0.6
+        version: 5.0.8
       - name: com.unity.2d.sprite
         version: 1.0.0
       resolvedDependencies:
@@ -328,7 +329,7 @@ m_PackageAssets:
       - name: com.unity.modules.uielementsnative
         version: 1.0.0
       - name: com.unity.2d.animation
-        version: 5.0.7
+        version: 5.0.8
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.modules.animation
@@ -349,13 +350,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637594727750000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 9e7fd5cbe078d004f1e87ecdf3b57436664a690a
+        revision: f2df77302616ee97ac0bda980859324394e44df3
         path: 
     - packageId: com.unity.2d.sprite@1.0.0
       testable: 0
@@ -408,12 +409,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.2d.spriteshape@5.1.4
+    - packageId: com.unity.2d.spriteshape@5.1.5
       testable: 0
       isDirectDependency: 1
-      version: 5.1.4
+      version: 5.1.5
       source: 1
-      resolvedPath: E:\git\Sarcov-Juego\JUEGO code\Sarcov_game\Library\PackageCache\com.unity.2d.spriteshape@5.1.4
+      resolvedPath: E:\git\Sarcov-Juego\JUEGO code\Sarcov_game\Library\PackageCache\com.unity.2d.spriteshape@5.1.5
       assetPath: Packages/com.unity.2d.spriteshape
       name: com.unity.2d.spriteshape
       displayName: 2D SpriteShape
@@ -480,6 +481,7 @@ m_PackageAssets:
         - 5.1.2
         - 5.1.3
         - 5.1.4
+        - 5.1.5
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.0
@@ -488,8 +490,8 @@ m_PackageAssets:
         - 7.0.0-pre.3
         - 7.0.0
         compatible:
-        - 5.1.4
-        verified: 5.1.4
+        - 5.1.5
+        verified: 5.1.5
       dependencies:
       - name: com.unity.mathematics
         version: 1.1.0
@@ -539,13 +541,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637637511330000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 6f9c488e4d487ead34ee4d516f0a2f4a911a8b25
+        revision: f2df77302616ee97ac0bda980859324394e44df3
         path: 
     - packageId: com.unity.2d.tilemap@1.0.0
       testable: 0
@@ -597,12 +599,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.collab-proxy@1.11.2
+    - packageId: com.unity.collab-proxy@1.13.5
       testable: 0
       isDirectDependency: 1
-      version: 1.11.2
+      version: 1.13.5
       source: 1
-      resolvedPath: E:\git\Sarcov-Juego\JUEGO code\Sarcov_game\Library\PackageCache\com.unity.collab-proxy@1.11.2
+      resolvedPath: E:\git\Sarcov-Juego\JUEGO code\Sarcov_game\Library\PackageCache\com.unity.collab-proxy@1.13.5
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -643,7 +645,7 @@ m_PackageAssets:
         - 1.7.1
         - 1.8.0
         - 1.9.0
-        - 1.11.2
+        - 1.13.5
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -655,7 +657,7 @@ m_PackageAssets:
         - 2.1.0-preview.5
         - 2.1.0-preview.6
         compatible:
-        - 1.11.2
+        - 1.13.5
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -666,9 +668,19 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.11.2
-      dependencies: []
-      resolvedDependencies: []
+        verified: 1.13.5
+      dependencies:
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
+      - name: com.unity.services.core
+        version: 1.0.1
+      resolvedDependencies:
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
+      - name: com.unity.services.core
+        version: 1.0.1
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
       keywords:
       - backup
       - cloud
@@ -701,7 +713,7 @@ m_PackageAssets:
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: 3bc7fe2ab9acbe4538785fec6100ac17fe9e8da5
+        revision: 4001806dc89b25276d1382d5abffd71731b030e5
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
@@ -3226,6 +3238,117 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
         path: 
+    - packageId: com.unity.nuget.newtonsoft-json@2.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 2.0.0
+      source: 1
+      resolvedPath: E:\git\Sarcov-Juego\JUEGO code\Sarcov_game\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      assetPath: Packages/com.unity.nuget.newtonsoft-json
+      name: com.unity.nuget.newtonsoft-json
+      displayName: Newtonsoft Json
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: library
+      description: 'Newtonsoft Json for use in Unity projects and Unity packages.
+        Currently synced to version 12.0.2.
+
+
+        This package is used for advanced
+        json serialization and deserialization. Most Unity users will be better suited
+        using the existing json tools built into Unity.
+
+        To avoid assembly
+        clashes, please use this package if you intend to use Newtonsoft Json.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.0.0
+        compatible:
+        - 2.0.0
+        verified: 2.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+        revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
+        path: 
+    - packageId: com.unity.services.core@1.0.1
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.1
+      source: 1
+      resolvedPath: E:\git\Sarcov-Juego\JUEGO code\Sarcov_game\Library\PackageCache\com.unity.services.core@1.0.1
+      assetPath: Packages/com.unity.services.core
+      name: com.unity.services.core
+      displayName: Services Core
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'This package defines common components used by multiple Game
+        Service packages.
+
+        These are standardized and aim to unify the overall
+        experience of working with Game Services packages.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.1
+        compatible:
+        - 1.0.1
+        verified: 1.0.1
+      dependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+        revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
+        path: 
     - packageId: com.unity.mathematics@1.1.0
       testable: 0
       isDirectDependency: 0
@@ -3395,4 +3518,4 @@ m_PackageAssets:
   m_LocalPackages:
     m_LocalFileStatus: []
 m_ProjectPath: E:/git/Sarcov-Juego/JUEGO code/Sarcov_game/Packages
-m_EditorVersion: 2020.3.20f1 (41c4e627c95f)
+m_EditorVersion: 2020.3.21f1 (a38c86f6690f)
