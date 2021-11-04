@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/colegio destruido.unity
+- path: Assets/Scenes/ciudad_destruida.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

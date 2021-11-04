@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1996372772793336582}
   - component: {fileID: 1996372772793336581}
   - component: {fileID: 1996372772793336583}
+  - component: {fileID: 502249850384741081}
   m_Layer: 5
   m_Name: minor_enemies_p1_1
   m_TagString: Untagged
@@ -102,3 +103,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &502249850384741081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996372772793336580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce59718a77d495e48a6d60942a76d5cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangVision: 1.96
+  Cronometro: 0
+  Cronometroani: 0
+  detenerce: 0.99
+  Tclonacion: 5
+  clon2: {fileID: 2012222503582264166, guid: 3f530f9e18a9651489b086b9b86453fc, type: 3}
+  velocidad: 0.5

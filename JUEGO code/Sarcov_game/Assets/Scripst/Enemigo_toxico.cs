@@ -11,7 +11,7 @@ public class Enemigo_toxico : MonoBehaviour
     public float speed_walk;
     GameObject target;
     public bool atacando;
-
+    
     public float rango_vision;
     public float rango_ataque;
 
