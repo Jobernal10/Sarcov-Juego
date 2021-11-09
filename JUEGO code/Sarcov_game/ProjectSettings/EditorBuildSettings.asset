@@ -21,6 +21,12 @@ EditorBuildSettings:
     path: Assets/Scenes/colegio_2.unity
     guid: eff9f71552f4a814ea8e30b9211c6f2e
   - enabled: 1
+    path: Assets/Scenes/cole_caos.unity
+    guid: 80e8e4ec9d1b2364cba691be7a54fd64
+  - enabled: 1
     path: Assets/Scenes/ciudad_destruida.unity
     guid: 022a4e482ba46a44d98135e6df287112
+  - enabled: 1
+    path: Assets/Scenes/farmacia.unity
+    guid: b48afd8bab0320d41897422877a7903a
   m_configObjects: {}
