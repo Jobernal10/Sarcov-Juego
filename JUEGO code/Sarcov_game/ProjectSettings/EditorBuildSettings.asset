@@ -4,29 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Ciudad.unity
-    guid: be2a53bd0f414bf4d959b114f7bed28f
-  - enabled: 1
-    path: Assets/Scenes/Colegio_normal.unity
-    guid: 12e2fa5459c6f574aa2da6b5a815114f
-  - enabled: 1
-    path: Assets/Scenes/SAlon.unity
-    guid: 14213f686c8eb6b44b68fd5ead9d485c
-  - enabled: 1
-    path: Assets/Scenes/colegio_2.unity
-    guid: eff9f71552f4a814ea8e30b9211c6f2e
-  - enabled: 1
-    path: Assets/Scenes/cole_caos.unity
-    guid: 80e8e4ec9d1b2364cba691be7a54fd64
-  - enabled: 1
-    path: Assets/Scenes/ciudad_destruida.unity
-    guid: 022a4e482ba46a44d98135e6df287112
-  - enabled: 1
-    path: Assets/Scenes/farmacia.unity
-    guid: b48afd8bab0320d41897422877a7903a
+  m_Scenes: []
   m_configObjects: {}

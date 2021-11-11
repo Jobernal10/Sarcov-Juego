@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 sceneSetups:
 - path: Assets/Scenes/pruebas.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
+=======
+sceneSetups: []
+>>>>>>> 7f9a9163c233075f1c58d1839031ddd137365aba

@@ -69,7 +69,11 @@ The following packages were updated:
   com.unity.2d.spriteshape from version 5.1.4 to 5.1.5
   com.unity.collab-proxy from version 1.11.2 to 1.13.5
 
+<<<<<<< HEAD
+=== Mon Nov  8 13:32:12 2021
+=======
 === Mon Nov  8 23:16:02 2021
+>>>>>>> 293b4dfd55d029e0a0c567aec3e7a781fb411c44
 
 Packages were changed.
 Update Mode: updateDependencies
