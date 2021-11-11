@@ -1,0 +1,2 @@
+# Starting compiling Assembly-CSharp.dll
+E:\unity\2020.3.22f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-ddd57df726ea20e4e8f87b1473fdc1a5
