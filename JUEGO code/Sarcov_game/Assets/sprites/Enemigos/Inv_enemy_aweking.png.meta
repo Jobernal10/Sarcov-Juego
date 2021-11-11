@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: 03225dc6e75250745af9a147b61b162b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5019475846621160784
+    second: Inv_enemy_aweking_0
+  - first:
+      213: -6132661564197899482
+    second: Inv_enemy_aweking_1
+  - first:
+      213: 4721114628794677026
+    second: Inv_enemy_aweking_2
+  - first:
+      213: 3732370065206826021
+    second: Inv_enemy_aweking_3
+  - first:
+      213: -2339680291272826221
+    second: Inv_enemy_aweking_4
+  - first:
+      213: 1338503407656034738
+    second: Inv_enemy_aweking_5
+  - first:
+      213: 7779725648564675458
+    second: Inv_enemy_aweking_6
+  - first:
+      213: -7856738968653004761
+    second: Inv_enemy_aweking_7
+  - first:
+      213: 8686184570696122027
+    second: Inv_enemy_aweking_8
+  - first:
+      213: 1658843114011477052
+    second: Inv_enemy_aweking_9
+  - first:
+      213: -5722318452463316597
+    second: Inv_enemy_aweking_10
+  - first:
+      213: 1910472295796447739
+    second: Inv_enemy_aweking_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +68,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +111,105 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Inv_enemy_aweking_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 47
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba1e73df4d375ab0800000000000000
+      internalID: -5019475846621160784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inv_enemy_aweking_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 47
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623fa42bcc864eaa0800000000000000
+      internalID: -6132661564197899482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inv_enemy_aweking_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 42
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52454f2acca0cc330800000000000000
+      internalID: 3732370065206826021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inv_enemy_aweking_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 42
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1ecffe1c1539210800000000000000
+      internalID: 1338503407656034738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
