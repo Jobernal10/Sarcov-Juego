@@ -37,8 +37,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -253.43, y: -114.5}
-  m_SizeDelta: {x: 506.8563, y: 59.2348}
+  m_AnchoredPosition: {x: -253.43, y: -105.14949}
+  m_SizeDelta: {x: 506.8563, y: 77.9358}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6539814366501878259
 CanvasRenderer:
@@ -186,8 +186,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Que raro, no hay nadie en la escuela
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3a97af8583ece4640aec1e591410d224, type: 2}
-  m_sharedMaterial: {fileID: 7820351162497025793, guid: 3a97af8583ece4640aec1e591410d224, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b242329c231f40141a9be9097de613f6, type: 2}
+  m_sharedMaterial: {fileID: -2356357480709087125, guid: b242329c231f40141a9be9097de613f6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -287,8 +287,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -132.21802, y: 7.598999}
-  m_SizeDelta: {x: 255.6253, y: 15.198}
+  m_AnchoredPosition: {x: -155.22308, y: 7.598999}
+  m_SizeDelta: {x: 301.6354, y: 15.198}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1956248420193621899
 CanvasRenderer:
@@ -320,8 +320,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: presiona espacio para continuar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3a97af8583ece4640aec1e591410d224, type: 2}
-  m_sharedMaterial: {fileID: 7820351162497025793, guid: 3a97af8583ece4640aec1e591410d224, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b242329c231f40141a9be9097de613f6, type: 2}
+  m_sharedMaterial: {fileID: -2356357480709087125, guid: b242329c231f40141a9be9097de613f6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

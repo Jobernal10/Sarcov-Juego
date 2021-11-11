@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movimiento : MonoBehaviour
 {
@@ -32,7 +33,7 @@ public class Movimiento : MonoBehaviour
         else if (Horizontal > 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
 
         //Detectar suelo
-        if (Physics2D.Raycast(transform.position, Vector3.down, 0.27f))
+        if (Physics2D.Raycast(transform.position, Vector3.down, 0.29f))
         {
             Grounded = true;
         }
@@ -61,8 +62,12 @@ public class Movimiento : MonoBehaviour
         Health -= daño;
         if (Health <= 0)
         {
-           other.transform.position = spawnPoint.position;
-           Health = initial_healt;
+
+           Destroy(gameObject);
+           SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+           //other.transform.position = spawnPoint.position;
+           //Health = initial_healt;
+
         } 
     }
 

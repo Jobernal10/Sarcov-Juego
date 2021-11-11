@@ -300,7 +300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visionRadius: 1.64
-  speed: 0.6
+  speed: 1
   "da\xF1o": 10
 --- !u!95 &760396770
 Animator:
