@@ -48,6 +48,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\Scripst\transiciones de nivel\exit_ciudad_caos.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\Scripst\Movimiento.cs" />
@@ -55,6 +56,7 @@
      <Compile Include="Assets\Scripst\Kill_player.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\Scripst\plataforma_mov.cs" />
+     <Compile Include="Assets\Scripst\objetos_fall.cs" />
      <Compile Include="Assets\Scripst\Enemigo_toxico.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\Scripst\idleBehaviour.cs" />
@@ -72,9 +74,11 @@
      <Compile Include="Assets\Scripst\transiciones de nivel\END.cs" />
      <Compile Include="Assets\Scripst\transiciones de nivel\Entrada_Cole.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\Scripst\sart_fall.cs" />
      <Compile Include="Assets\Scripst\proyectil_flema.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\Scripst\transiciones de nivel\Exit_coldestru.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
      <Compile Include="Assets\Scripst\textox_scrips\drestroy_texto.cs" />
      <Compile Include="Assets\Scripst\CAmara.cs" />

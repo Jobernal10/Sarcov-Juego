@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Pataforma_mov
   - Enemy
+  - pos
   layers:
   - Default
   - TransparentFX

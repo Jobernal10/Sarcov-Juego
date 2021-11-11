@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\transiciones de nivel"
   ],
-  "SelectedNode": "\\Enemigo_toxico.cs",
+  "SelectedNode": "\\transiciones de nivel\\entrada_salon.cs",
   "PreviewInSolutionExplorer": false
 }
